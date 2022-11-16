@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sensor_0',['Sensor',['../class_sensor.html',1,'']]]
+  ['liquidcrystal_5fi2c_0',['LiquidCrystal_I2C',['../class_liquid_crystal___i2_c.html',1,'']]]
 ];
