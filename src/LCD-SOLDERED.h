@@ -13,8 +13,8 @@
 #define __LCD__
 
 #include "Arduino.h"
-#include "libs/LiquidCrystal_I2C.h"
 #include "libs/LCD_I2C.h"
+#include "libs/LiquidCrystal_I2C.h"
 
 typedef enum
 {
@@ -25,8 +25,8 @@ typedef enum
 class LCD : public LiquidCrystal_I2C
 {
   public:
-    //LCD() : LiquidCrystal_I2C(16,2);
-    
+    // LCD() : LiquidCrystal_I2C(16,2);
+
   private:
     lcd_variant_t lcdtype;
 };
