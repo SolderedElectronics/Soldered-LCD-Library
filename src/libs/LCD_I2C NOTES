@@ -1,0 +1,28 @@
+The LCD is in 4 bit mode, meaning each 8 bits of data are sent in two different messages:
+
+RS | RW | E | LED | DATA3 | DATA2 | DATA1 | DATA0
+RS | RW | E | LED | DATA7 | DATA6 | DATA5 | DATA4
+
+The LCD_Write function splits a uint8_t (DATA0-7) and sends it like this:
+
+RS | RW | 1 | LED | HighData
+RS | RW | 1 | LED | HighData
+RS | RW | 0 | LED | HighData
+RS | RW | 0 | LED | HighData
+
+except during initialization, then it's sent like this:
+RS | RW | 1 | LED | HighData
+RS | RW | 1 | LED | HighData
+
+
+RS: 
+RW:
+E: is high if it's HighData (bits 7, 6, 5 and 4), low if LowData (3, 2, 1, 0).
+LED: Backlight control (1, unless you want to turn off the Backlight)
+
+INITIALIZATION:
+
+0b00000000 is sent to clear I2C
+
+delay(50) after power on
+
