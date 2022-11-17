@@ -2,11 +2,11 @@
  **************************************************
  *
  * @file        LCD-SOLDERED.h
- * @brief       Header file for sensor specific code.
+ * @brief       Header for Soldered LCD library. See more at solde.red/333003
  *
  *
  * @copyright GNU General Public License v3.0
- * @authors     @ soldered.com
+ * @authors   Robert Soric @ soldered.com
  ***************************************************/
 
 #ifndef __LCD__
@@ -14,21 +14,19 @@
 
 #include "Arduino.h"
 #include "libs/LiquidCrystal_I2C.h"
-#include "libs/LCD_I2C.h"
-
-typedef enum
-{
-    LCD_16x2,
-    LCD_20x4
-} lcd_variant_t;
 
 class LCD : public LiquidCrystal_I2C
 {
   public:
-    //LCD() : LiquidCrystal_I2C(16,2);
-    
-  private:
-    lcd_variant_t lcdtype;
+    LCD() : LiquidCrystal_I2C(0x20,16,2)
+    {
+
+    }
+
+    LCD(int rows, int cols) : LiquidCrystal_I2C(0x20,rows,cols)
+    {
+
+    }
 };
 
 #endif

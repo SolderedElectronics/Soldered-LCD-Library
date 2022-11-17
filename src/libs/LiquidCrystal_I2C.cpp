@@ -22,6 +22,10 @@
 // can't assume that its in that state when a sketch starts (and the
 // LiquidCrystal constructor is called).
 
+/**
+ * Modified by Robert Sorić for Soldered for application with PCF8574 IO expander
+*/
+
 LiquidCrystal_I2C::LiquidCrystal_I2C(uint8_t lcd_addr, uint8_t lcd_cols, uint8_t lcd_rows, uint8_t charsize)
 {
 	_addr = lcd_addr;
@@ -47,34 +51,11 @@ void LiquidCrystal_I2C::begin() {
 	// SEE PAGE 45/46 FOR INITIALIZATION SPECIFICATION!
 	// according to datasheet, we need at least 40ms after power rises above 2.7V
 	// before sending commands. Arduino can turn on way befer 4.5V so we'll wait 50
-	//delay(50);
+	delay(50);
 
-	// Now we pull both RS and R/W low to begin commands
-	//expanderWrite(_backlightval);	// reset expanderand turn backlight off (Bit 8 =1)
-	//delay(1000);
-
-	//put the LCD into 4 bit mode
-	// this is according to the hitachi HD44780 datasheet
-	// figure 24, pg 46
-
-	/*
-
-	// we start in 8bit mode, try to set 4 bit mode
-	write4bits(0x03 << 4);
-	delayMicroseconds(4500); // wait min 4.1ms
-
-	// second try
-	write4bits(0x03 << 4);
-	delayMicroseconds(4500); // wait min 4.1ms
-
-	// third go!
-	write4bits(0x03 << 4);
-	delayMicroseconds(150);
-
-	// finally, set to 4-bit interface
-	write4bits(0x02 << 4);
+	/**
+	 * Initialization for display via PCF8574 expander
 	*/
-
 	Wire.beginTransmission(_addr);
     Wire.write(3);    // config register
     Wire.write(0x00); // all outputs
@@ -91,6 +72,10 @@ void LiquidCrystal_I2C::begin() {
     Serial.println(Wire.endTransmission());
 	delay(10);
 
+	/**
+	 * Configuration of display
+	 * See HD44780U datasheet "Initializing by Instruction" Figure 24 (4-Bit Interface)
+	*/
 	write4bits(0b00110000);
     delayMicroseconds(4200);
     write4bits(0b00110000);
@@ -257,7 +242,7 @@ void LiquidCrystal_I2C::write4bits(uint8_t value) {
 
 void LiquidCrystal_I2C::expanderWrite(uint8_t _data){
 	Wire.beginTransmission(_addr);
-	Wire.write(1);
+	Wire.write(1); //For PCF8574
 	Wire.write((int)(_data) | _backlightval);
 	Wire.endTransmission();
 }

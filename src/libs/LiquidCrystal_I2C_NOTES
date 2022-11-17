@@ -1,3 +1,0 @@
-The function to write anything on the I2C bus is write4bits
-
-expanderwrite writes 8
