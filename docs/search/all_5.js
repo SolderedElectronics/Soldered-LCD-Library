@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['easyc_0',['EasyC',['../class_easy_c.html',1,'EasyC'],['../class_easy_c.html#a2ea672a225a32eab52c2b20733fd26bd',1,'EasyC::EasyC()']]],
-  ['easyc_2ehpp_1',['easyC.hpp',['../easy_c_8hpp.html',1,'']]],
-  ['err_2',['err',['../class_easy_c.html#a8b880d5daf116adde0cc436f1e4c0853',1,'EasyC']]],
-  ['expanderwrite_3',['expanderWrite',['../class_liquid_crystal___i2_c.html#a4c63780ceef67e90750d3e4bbdb83402',1,'LiquidCrystal_I2C']]]
+  ['e_0',['E',['../struct_output_state.html#a177c6c0226e0bcbc4173e2df32cd3db5',1,'OutputState']]],
+  ['expanderwrite_1',['expanderWrite',['../class_liquid_crystal___i2_c.html#a4c63780ceef67e90750d3e4bbdb83402',1,'LiquidCrystal_I2C']]]
 ];

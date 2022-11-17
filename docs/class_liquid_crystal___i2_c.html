@@ -105,13 +105,15 @@ $(document).ready(function(){initNavTree('class_liquid_crystal___i2_c.html','');
 <p><code>#include &lt;<a class="el" href="_liquid_crystal___i2_c_8h_source.html">LiquidCrystal_I2C.h</a>&gt;</code></p>
 
 <p>Inherits Print.</p>
+
+<p>Inherited by <a class="el" href="class_l_c_d.html">LCD</a>.</p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8dfaa0b0dd9ac30360afaf6b3b79c073"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a8dfaa0b0dd9ac30360afaf6b3b79c073">LiquidCrystal_I2C</a> (uint8_t lcd_Addr, uint8_t lcd_cols, uint8_t lcd_rows)</td></tr>
-<tr class="separator:a8dfaa0b0dd9ac30360afaf6b3b79c073"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeee2ada537f0cfbfda8613324b57c4a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#aeee2ada537f0cfbfda8613324b57c4a6">begin</a> (uint8_t cols, uint8_t rows, uint8_t charsize=LCD_5x8DOTS)</td></tr>
-<tr class="separator:aeee2ada537f0cfbfda8613324b57c4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52ea9b51b4adaddbf05760ff595ffcc2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a52ea9b51b4adaddbf05760ff595ffcc2">LiquidCrystal_I2C</a> (uint8_t lcd_addr, uint8_t lcd_cols, uint8_t lcd_rows, uint8_t charsize=LCD_5x8DOTS)</td></tr>
+<tr class="separator:a52ea9b51b4adaddbf05760ff595ffcc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62235d63b74abf26160d7cfe67a9687e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a62235d63b74abf26160d7cfe67a9687e">begin</a> ()</td></tr>
+<tr class="separator:a62235d63b74abf26160d7cfe67a9687e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab47996231da6feeebcebf0e6e34756a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#ab47996231da6feeebcebf0e6e34756a9">clear</a> ()</td></tr>
 <tr class="separator:ab47996231da6feeebcebf0e6e34756a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b8edf82c5835c9b6caac98b5a0ed464"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a9b8edf82c5835c9b6caac98b5a0ed464">home</a> ()</td></tr>
@@ -148,26 +150,20 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a576f1f5813f55f34333d6d7e9fe53ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f296e0d26f8b6a4509d8d4b9d738c03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a9f296e0d26f8b6a4509d8d4b9d738c03">backlight</a> ()</td></tr>
 <tr class="separator:a9f296e0d26f8b6a4509d8d4b9d738c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7654d037ef2eab58e5fd0a3fa77c53aa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a7654d037ef2eab58e5fd0a3fa77c53aa">getBacklight</a> ()</td></tr>
+<tr class="separator:a7654d037ef2eab58e5fd0a3fa77c53aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36f1b8e433762262d2238463b7a92f74"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a36f1b8e433762262d2238463b7a92f74">autoscroll</a> ()</td></tr>
 <tr class="separator:a36f1b8e433762262d2238463b7a92f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a10fd17e8377c240527a7668606c9de72"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a10fd17e8377c240527a7668606c9de72">noAutoscroll</a> ()</td></tr>
 <tr class="separator:a10fd17e8377c240527a7668606c9de72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb84147c9e3ee0c279d3afc609b81608"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#adb84147c9e3ee0c279d3afc609b81608">createChar</a> (uint8_t, uint8_t[])</td></tr>
 <tr class="separator:adb84147c9e3ee0c279d3afc609b81608"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97aeaa2e6fff89da0b94b260f03263a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a97aeaa2e6fff89da0b94b260f03263a3">createChar</a> (uint8_t location, const char *charmap)</td></tr>
-<tr class="separator:a97aeaa2e6fff89da0b94b260f03263a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1a7b0162a055502ad9eac04cec9e270"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#ae1a7b0162a055502ad9eac04cec9e270">setCursor</a> (uint8_t, uint8_t)</td></tr>
 <tr class="separator:ae1a7b0162a055502ad9eac04cec9e270"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bae091b5b16db5408ac3214245c8942"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a6bae091b5b16db5408ac3214245c8942">write</a> (uint8_t)</td></tr>
-<tr class="separator:a6bae091b5b16db5408ac3214245c8942"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a225ba403c6844f16fecefe4b4a0fb59f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a225ba403c6844f16fecefe4b4a0fb59f">write</a> (uint8_t)</td></tr>
-<tr class="separator:a225ba403c6844f16fecefe4b4a0fb59f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5dc1bd4a630aa842c5d21ee3e2caa2a"><td class="memItemLeft" align="right" valign="top">virtual size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#ab5dc1bd4a630aa842c5d21ee3e2caa2a">write</a> (uint8_t)</td></tr>
+<tr class="separator:ab5dc1bd4a630aa842c5d21ee3e2caa2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e69fa88365d87fb8422f69069a3ee48"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a5e69fa88365d87fb8422f69069a3ee48">command</a> (uint8_t)</td></tr>
 <tr class="separator:a5e69fa88365d87fb8422f69069a3ee48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d40d226d4bc9baedc9a5c765470457a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a6d40d226d4bc9baedc9a5c765470457a">init</a> ()</td></tr>
-<tr class="separator:a6d40d226d4bc9baedc9a5c765470457a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd0a4e0bbc95dd544ac6a731dcc64fda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#afd0a4e0bbc95dd544ac6a731dcc64fda">oled_init</a> ()</td></tr>
-<tr class="separator:afd0a4e0bbc95dd544ac6a731dcc64fda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06a2f5c8607d58cfe6db8b801ae956a0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a06a2f5c8607d58cfe6db8b801ae956a0">blink_on</a> ()</td></tr>
 <tr class="separator:a06a2f5c8607d58cfe6db8b801ae956a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ac2b8da020fd033eb174d9805f43751"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a9ac2b8da020fd033eb174d9805f43751">blink_off</a> ()</td></tr>
@@ -182,29 +178,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a3251c0d8e9a6981d46e25d5452b8323f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36d792580018f7c0c0ae2500980931e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a36d792580018f7c0c0ae2500980931e5">printstr</a> (const char[])</td></tr>
 <tr class="separator:a36d792580018f7c0c0ae2500980931e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57278987b0b259fe7598e57ddaf106cf"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a57278987b0b259fe7598e57ddaf106cf">status</a> ()</td></tr>
-<tr class="separator:a57278987b0b259fe7598e57ddaf106cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa49d57361d3b48ded89bfb42c3e0349d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#aa49d57361d3b48ded89bfb42c3e0349d">setContrast</a> (uint8_t new_val)</td></tr>
-<tr class="separator:aa49d57361d3b48ded89bfb42c3e0349d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab571c9ed0b1b38ed8b6bc9c4b2572ea0"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#ab571c9ed0b1b38ed8b6bc9c4b2572ea0">keypad</a> ()</td></tr>
-<tr class="separator:ab571c9ed0b1b38ed8b6bc9c4b2572ea0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebc613f31cd399cb463f6d9fce8a4d8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#aebc613f31cd399cb463f6d9fce8a4d8d">setDelay</a> (int, int)</td></tr>
-<tr class="separator:aebc613f31cd399cb463f6d9fce8a4d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade8df694db7a45392d81a630221aec35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#ade8df694db7a45392d81a630221aec35">on</a> ()</td></tr>
-<tr class="separator:ade8df694db7a45392d81a630221aec35"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2823eb0ebd97f9710868d51b470a7310"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a2823eb0ebd97f9710868d51b470a7310">off</a> ()</td></tr>
-<tr class="separator:a2823eb0ebd97f9710868d51b470a7310"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a87f06039d79acc1bda837d3303bfdc"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a8a87f06039d79acc1bda837d3303bfdc">init_bargraph</a> (uint8_t graphtype)</td></tr>
-<tr class="separator:a8a87f06039d79acc1bda837d3303bfdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fad8437055f3c550bc212662e0f4e15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a2fad8437055f3c550bc212662e0f4e15">draw_horizontal_graph</a> (uint8_t row, uint8_t column, uint8_t len, uint8_t pixel_col_end)</td></tr>
-<tr class="separator:a2fad8437055f3c550bc212662e0f4e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af984fc2e29c38b87d4bc8b855e9ba27c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#af984fc2e29c38b87d4bc8b855e9ba27c">draw_vertical_graph</a> (uint8_t row, uint8_t column, uint8_t len, uint8_t pixel_col_end)</td></tr>
-<tr class="separator:af984fc2e29c38b87d4bc8b855e9ba27c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a5b93566ab26dff408a221581049b8869"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a5b93566ab26dff408a221581049b8869">init_priv</a> ()</td></tr>
-<tr class="separator:a5b93566ab26dff408a221581049b8869"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e08a46972a4624e2c7e5b521455b7b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a2e08a46972a4624e2c7e5b521455b7b8">send</a> (uint8_t, uint8_t)</td></tr>
 <tr class="separator:a2e08a46972a4624e2c7e5b521455b7b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aebb0b9f000b94cc3ab026e0154d6ecef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#aebb0b9f000b94cc3ab026e0154d6ecef">write4bits</a> (uint8_t)</td></tr>
@@ -216,28 +192,29 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a0bb3cc7ec414b373ef00e0cc6642ec88"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a0bb3cc7ec414b373ef00e0cc6642ec88">_Addr</a></td></tr>
-<tr class="separator:a0bb3cc7ec414b373ef00e0cc6642ec88"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a763a1d42957ed4ff9f9fa8842adf1f14"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a763a1d42957ed4ff9f9fa8842adf1f14">_addr</a></td></tr>
+<tr class="separator:a763a1d42957ed4ff9f9fa8842adf1f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add2dcc037c631ade89e25ea95159ae85"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#add2dcc037c631ade89e25ea95159ae85">_displayfunction</a></td></tr>
 <tr class="separator:add2dcc037c631ade89e25ea95159ae85"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af31ed8fc7beee98dfaf4ad9b814187fd"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#af31ed8fc7beee98dfaf4ad9b814187fd">_displaycontrol</a></td></tr>
 <tr class="separator:af31ed8fc7beee98dfaf4ad9b814187fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cc2adb64f5c3f17cd59219c56eb9bb3"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a2cc2adb64f5c3f17cd59219c56eb9bb3">_displaymode</a></td></tr>
 <tr class="separator:a2cc2adb64f5c3f17cd59219c56eb9bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fed45c9323abd1d24eb860a45915919"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#a7fed45c9323abd1d24eb860a45915919">_numlines</a></td></tr>
-<tr class="separator:a7fed45c9323abd1d24eb860a45915919"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8f0bf23094836c6c60f75c12a89c3ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#af8f0bf23094836c6c60f75c12a89c3ec">_oled</a> = false</td></tr>
-<tr class="separator:af8f0bf23094836c6c60f75c12a89c3ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af99934fdb39403e02d68981ad8366e6b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#af99934fdb39403e02d68981ad8366e6b">_cols</a></td></tr>
 <tr class="separator:af99934fdb39403e02d68981ad8366e6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb3edf6c68b018a37293a926c4816127"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#adb3edf6c68b018a37293a926c4816127">_rows</a></td></tr>
 <tr class="separator:adb3edf6c68b018a37293a926c4816127"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9aa5d9118efbce015da9866b6bda974"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#ab9aa5d9118efbce015da9866b6bda974">_charsize</a></td></tr>
+<tr class="separator:ab9aa5d9118efbce015da9866b6bda974"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af63a2b732d345d55abfcb83bf962c8d3"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_liquid_crystal___i2_c.html#af63a2b732d345d55abfcb83bf962c8d3">_backlightval</a></td></tr>
 <tr class="separator:af63a2b732d345d55abfcb83bf962c8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8dfaa0b0dd9ac30360afaf6b3b79c073" name="a8dfaa0b0dd9ac30360afaf6b3b79c073"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8dfaa0b0dd9ac30360afaf6b3b79c073">&#9670;&#160;</a></span>LiquidCrystal_I2C()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p >This is the driver for the Liquid Crystal <a class="el" href="class_l_c_d.html">LCD</a> displays that use the I2C bus.</p>
+<p >After creating an instance of this class, first call <a class="el" href="class_liquid_crystal___i2_c.html#a62235d63b74abf26160d7cfe67a9687e">begin()</a> before anything else. The backlight is on by default, since that is the most likely operating mode in most cases. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a52ea9b51b4adaddbf05760ff595ffcc2" name="a52ea9b51b4adaddbf05760ff595ffcc2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52ea9b51b4adaddbf05760ff595ffcc2">&#9670;&#160;</a></span>LiquidCrystal_I2C()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246,7 +223,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">LiquidCrystal_I2C::LiquidCrystal_I2C </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>lcd_Addr</em>, </td>
+          <td class="paramname"><em>lcd_addr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -258,7 +235,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>lcd_rows</em>&#160;</td>
+          <td class="paramname"><em>lcd_rows</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>charsize</em> = <code>LCD_5x8DOTS</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -267,6 +250,16 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Constructor</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">lcd_addr</td><td>I2C slave address of the <a class="el" href="class_l_c_d.html">LCD</a> display. Most likely printed on the <a class="el" href="class_l_c_d.html">LCD</a> circuit board, or look in the supplied <a class="el" href="class_l_c_d.html">LCD</a> documentation. </td></tr>
+    <tr><td class="paramname">lcd_cols</td><td>Number of columns your <a class="el" href="class_l_c_d.html">LCD</a> display has. </td></tr>
+    <tr><td class="paramname">lcd_rows</td><td>Number of rows your <a class="el" href="class_l_c_d.html">LCD</a> display has. </td></tr>
+    <tr><td class="paramname">charsize</td><td>The size in dots that the display has, use LCD_5x10DOTS or LCD_5x8DOTS. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -307,8 +300,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aeee2ada537f0cfbfda8613324b57c4a6" name="aeee2ada537f0cfbfda8613324b57c4a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeee2ada537f0cfbfda8613324b57c4a6">&#9670;&#160;</a></span>begin()</h2>
+<a id="a62235d63b74abf26160d7cfe67a9687e" name="a62235d63b74abf26160d7cfe67a9687e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62235d63b74abf26160d7cfe67a9687e">&#9670;&#160;</a></span>begin()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -316,28 +309,12 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void LiquidCrystal_I2C::begin </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>cols</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>rows</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>charsize</em> = <code>LCD_5x8DOTS</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Set the <a class="el" href="class_l_c_d.html">LCD</a> display in the correct begin state, must be called before anything else is done. </p>
 
 </div>
 </div>
@@ -355,6 +332,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Start blinking the cursor indicator. </p>
 
 </div>
 </div>
@@ -363,6 +341,9 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void LiquidCrystal_I2C::blink_off </td>
@@ -371,6 +352,11 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -380,6 +366,9 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void LiquidCrystal_I2C::blink_on </td>
@@ -388,6 +377,11 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -406,6 +400,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Remove all the characters currently shown. Next print/write operation will start from the first position on <a class="el" href="class_l_c_d.html">LCD</a> display. </p>
 
 </div>
 </div>
@@ -435,36 +430,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a97aeaa2e6fff89da0b94b260f03263a3" name="a97aeaa2e6fff89da0b94b260f03263a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97aeaa2e6fff89da0b94b260f03263a3">&#9670;&#160;</a></span>createChar() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LiquidCrystal_I2C::createChar </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>location</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>charmap</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="adb84147c9e3ee0c279d3afc609b81608" name="adb84147c9e3ee0c279d3afc609b81608"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb84147c9e3ee0c279d3afc609b81608">&#9670;&#160;</a></span>createChar() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adb84147c9e3ee0c279d3afc609b81608">&#9670;&#160;</a></span>createChar()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -505,6 +472,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Show a cursor indicator, cursor can blink on not blink. Use the methods <a class="el" href="class_liquid_crystal___i2_c.html#a604ade489e878ec757a05dab4586c3a9">blink()</a> and <a class="el" href="class_liquid_crystal___i2_c.html#a89ba791c60f6100eb565bc6099e56bb1">noBlink()</a> for changing cursor blink. </p>
 
 </div>
 </div>
@@ -513,6 +481,9 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void LiquidCrystal_I2C::cursor_off </td>
@@ -521,6 +492,11 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -530,6 +506,9 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void LiquidCrystal_I2C::cursor_on </td>
@@ -538,6 +517,11 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -556,86 +540,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2fad8437055f3c550bc212662e0f4e15" name="a2fad8437055f3c550bc212662e0f4e15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fad8437055f3c550bc212662e0f4e15">&#9670;&#160;</a></span>draw_horizontal_graph()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LiquidCrystal_I2C::draw_horizontal_graph </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>row</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>column</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>len</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>pixel_col_end</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af984fc2e29c38b87d4bc8b855e9ba27c" name="af984fc2e29c38b87d4bc8b855e9ba27c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af984fc2e29c38b87d4bc8b855e9ba27c">&#9670;&#160;</a></span>draw_vertical_graph()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LiquidCrystal_I2C::draw_vertical_graph </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>row</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>column</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>len</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>pixel_col_end</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p >Show the characters on the <a class="el" href="class_l_c_d.html">LCD</a> display, this is the normal behaviour. This method should only be used after <a class="el" href="class_liquid_crystal___i2_c.html#af89d6facccc156d7f151da71ecdd3b70">noDisplay()</a> has been used. </p>
 
 </div>
 </div>
@@ -665,6 +570,23 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7654d037ef2eab58e5fd0a3fa77c53aa" name="a7654d037ef2eab58e5fd0a3fa77c53aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7654d037ef2eab58e5fd0a3fa77c53aa">&#9670;&#160;</a></span>getBacklight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LiquidCrystal_I2C::getBacklight </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a9b8edf82c5835c9b6caac98b5a0ed464" name="a9b8edf82c5835c9b6caac98b5a0ed464"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9b8edf82c5835c9b6caac98b5a0ed464">&#9670;&#160;</a></span>home()</h2>
 
@@ -679,83 +601,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6d40d226d4bc9baedc9a5c765470457a" name="a6d40d226d4bc9baedc9a5c765470457a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d40d226d4bc9baedc9a5c765470457a">&#9670;&#160;</a></span>init()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LiquidCrystal_I2C::init </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8a87f06039d79acc1bda837d3303bfdc" name="a8a87f06039d79acc1bda837d3303bfdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a87f06039d79acc1bda837d3303bfdc">&#9670;&#160;</a></span>init_bargraph()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t LiquidCrystal_I2C::init_bargraph </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>graphtype</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5b93566ab26dff408a221581049b8869" name="a5b93566ab26dff408a221581049b8869"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b93566ab26dff408a221581049b8869">&#9670;&#160;</a></span>init_priv()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LiquidCrystal_I2C::init_priv </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab571c9ed0b1b38ed8b6bc9c4b2572ea0" name="ab571c9ed0b1b38ed8b6bc9c4b2572ea0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab571c9ed0b1b38ed8b6bc9c4b2572ea0">&#9670;&#160;</a></span>keypad()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t LiquidCrystal_I2C::keypad </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p >Next print/write operation will will start from the first position on the <a class="el" href="class_l_c_d.html">LCD</a> display. </p>
 
 </div>
 </div>
@@ -855,6 +701,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Do not blink the cursor indicator. </p>
 
 </div>
 </div>
@@ -872,6 +719,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Do not show a cursor indicator. </p>
 
 </div>
 </div>
@@ -889,57 +737,7 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2823eb0ebd97f9710868d51b470a7310" name="a2823eb0ebd97f9710868d51b470a7310"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2823eb0ebd97f9710868d51b470a7310">&#9670;&#160;</a></span>off()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LiquidCrystal_I2C::off </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afd0a4e0bbc95dd544ac6a731dcc64fda" name="afd0a4e0bbc95dd544ac6a731dcc64fda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd0a4e0bbc95dd544ac6a731dcc64fda">&#9670;&#160;</a></span>oled_init()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LiquidCrystal_I2C::oled_init </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ade8df694db7a45392d81a630221aec35" name="ade8df694db7a45392d81a630221aec35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade8df694db7a45392d81a630221aec35">&#9670;&#160;</a></span>on()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LiquidCrystal_I2C::on </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p >Do not show any characters on the <a class="el" href="class_l_c_d.html">LCD</a> display. Backlight state will remain unchanged. Also all characters written on the display will return, when the display in enabled again. </p>
 
 </div>
 </div>
@@ -1129,24 +927,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aa49d57361d3b48ded89bfb42c3e0349d" name="aa49d57361d3b48ded89bfb42c3e0349d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa49d57361d3b48ded89bfb42c3e0349d">&#9670;&#160;</a></span>setContrast()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LiquidCrystal_I2C::setContrast </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"><em>new_val</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ae1a7b0162a055502ad9eac04cec9e270" name="ae1a7b0162a055502ad9eac04cec9e270"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae1a7b0162a055502ad9eac04cec9e270">&#9670;&#160;</a></span>setCursor()</h2>
 
@@ -1164,34 +944,6 @@ Private Attributes</h2></td></tr>
           <td></td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>row</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aebc613f31cd399cb463f6d9fce8a4d8d" name="aebc613f31cd399cb463f6d9fce8a4d8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebc613f31cd399cb463f6d9fce8a4d8d">&#9670;&#160;</a></span>setDelay()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void LiquidCrystal_I2C::setDelay </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>cmdDelay</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>charDelay</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1237,25 +989,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a57278987b0b259fe7598e57ddaf106cf" name="a57278987b0b259fe7598e57ddaf106cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57278987b0b259fe7598e57ddaf106cf">&#9670;&#160;</a></span>status()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t LiquidCrystal_I2C::status </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6bae091b5b16db5408ac3214245c8942" name="a6bae091b5b16db5408ac3214245c8942"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bae091b5b16db5408ac3214245c8942">&#9670;&#160;</a></span>write() <span class="overload">[1/2]</span></h2>
+<a id="ab5dc1bd4a630aa842c5d21ee3e2caa2a" name="ab5dc1bd4a630aa842c5d21ee3e2caa2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5dc1bd4a630aa842c5d21ee3e2caa2a">&#9670;&#160;</a></span>write()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1264,7 +999,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void LiquidCrystal_I2C::write </td>
+          <td class="memname">size_t LiquidCrystal_I2C::write </td>
           <td>(</td>
           <td class="paramtype">uint8_t&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
@@ -1274,32 +1009,6 @@ Private Attributes</h2></td></tr>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a225ba403c6844f16fecefe4b4a0fb59f" name="a225ba403c6844f16fecefe4b4a0fb59f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a225ba403c6844f16fecefe4b4a0fb59f">&#9670;&#160;</a></span>write() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void LiquidCrystal_I2C::write </td>
-          <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1333,8 +1042,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a0bb3cc7ec414b373ef00e0cc6642ec88" name="a0bb3cc7ec414b373ef00e0cc6642ec88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bb3cc7ec414b373ef00e0cc6642ec88">&#9670;&#160;</a></span>_Addr</h2>
+<a id="a763a1d42957ed4ff9f9fa8842adf1f14" name="a763a1d42957ed4ff9f9fa8842adf1f14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a763a1d42957ed4ff9f9fa8842adf1f14">&#9670;&#160;</a></span>_addr</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1343,7 +1052,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t LiquidCrystal_I2C::_Addr</td>
+          <td class="memname">uint8_t LiquidCrystal_I2C::_addr</td>
         </tr>
       </table>
   </td>
@@ -1366,6 +1075,28 @@ Private Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">uint8_t LiquidCrystal_I2C::_backlightval</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab9aa5d9118efbce015da9866b6bda974" name="ab9aa5d9118efbce015da9866b6bda974"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9aa5d9118efbce015da9866b6bda974">&#9670;&#160;</a></span>_charsize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t LiquidCrystal_I2C::_charsize</td>
         </tr>
       </table>
   </td>
@@ -1465,50 +1196,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7fed45c9323abd1d24eb860a45915919" name="a7fed45c9323abd1d24eb860a45915919"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fed45c9323abd1d24eb860a45915919">&#9670;&#160;</a></span>_numlines</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint8_t LiquidCrystal_I2C::_numlines</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af8f0bf23094836c6c60f75c12a89c3ec" name="af8f0bf23094836c6c60f75c12a89c3ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8f0bf23094836c6c60f75c12a89c3ec">&#9670;&#160;</a></span>_oled</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool LiquidCrystal_I2C::_oled = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="adb3edf6c68b018a37293a926c4816127" name="adb3edf6c68b018a37293a926c4816127"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adb3edf6c68b018a37293a926c4816127">&#9670;&#160;</a></span>_rows</h2>
 
@@ -1543,7 +1230,7 @@ Private Attributes</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_liquid_crystal___i2_c.html">LiquidCrystal_I2C</a></li>
         <li class="footer">
-            Generated on Wed Nov 16 2022 08:07:41 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Thu Nov 17 2022 08:44:38 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.5.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

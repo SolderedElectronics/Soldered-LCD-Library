@@ -1,8 +1,9 @@
 var searchData=
 [
-  ['lefttoright_0',['leftToRight',['../class_liquid_crystal___i2_c.html#a90a79b37f976778593abb0264f59cda5',1,'LiquidCrystal_I2C']]],
-  ['liquidcrystal_5fi2c_1',['LiquidCrystal_I2C',['../class_liquid_crystal___i2_c.html',1,'LiquidCrystal_I2C'],['../class_liquid_crystal___i2_c.html#a8dfaa0b0dd9ac30360afaf6b3b79c073',1,'LiquidCrystal_I2C::LiquidCrystal_I2C()']]],
-  ['liquidcrystal_5fi2c_2ecpp_2',['LiquidCrystal_I2C.cpp',['../_liquid_crystal___i2_c_8cpp.html',1,'']]],
-  ['liquidcrystal_5fi2c_2eh_3',['LiquidCrystal_I2C.h',['../_liquid_crystal___i2_c_8h.html',1,'']]],
-  ['load_5fcustom_5fcharacter_4',['load_custom_character',['../class_liquid_crystal___i2_c.html#a3251c0d8e9a6981d46e25d5452b8323f',1,'LiquidCrystal_I2C']]]
+  ['naziv_20proizvoda_20arduino_20library_0',['NAZIV PROIZVODA Arduino library',['../index.html',1,'']]],
+  ['noautoscroll_1',['noAutoscroll',['../class_l_c_d___i2_c.html#a00b6ce4ea989ad2de8293f0cfd71982b',1,'LCD_I2C::noAutoscroll()'],['../class_liquid_crystal___i2_c.html#a10fd17e8377c240527a7668606c9de72',1,'LiquidCrystal_I2C::noAutoscroll()']]],
+  ['nobacklight_2',['noBacklight',['../class_l_c_d___i2_c.html#a60797d74c32600d12b1e51766fe6134f',1,'LCD_I2C::noBacklight()'],['../class_liquid_crystal___i2_c.html#a576f1f5813f55f34333d6d7e9fe53ad3',1,'LiquidCrystal_I2C::noBacklight()']]],
+  ['noblink_3',['noBlink',['../class_l_c_d___i2_c.html#a802681408aa48edc999caa1c75a8c553',1,'LCD_I2C::noBlink()'],['../class_liquid_crystal___i2_c.html#a89ba791c60f6100eb565bc6099e56bb1',1,'LiquidCrystal_I2C::noBlink()']]],
+  ['nocursor_4',['noCursor',['../class_l_c_d___i2_c.html#aae4a69a53cbb06c7e5fed2e22ad0e3ef',1,'LCD_I2C::noCursor()'],['../class_liquid_crystal___i2_c.html#a35a18278aa45bd91f2772924a50b7120',1,'LiquidCrystal_I2C::noCursor()']]],
+  ['nodisplay_5',['noDisplay',['../class_l_c_d___i2_c.html#a02fe1500396687b4454e9a2592a0f01b',1,'LCD_I2C::noDisplay()'],['../class_liquid_crystal___i2_c.html#af89d6facccc156d7f151da71ecdd3b70',1,'LiquidCrystal_I2C::noDisplay()']]]
 ];
