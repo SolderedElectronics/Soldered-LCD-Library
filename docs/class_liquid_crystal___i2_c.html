@@ -256,10 +256,11 @@ Private Attributes</h2></td></tr>
     <tr><td class="paramname">lcd_addr</td><td>I2C slave address of the <a class="el" href="class_l_c_d.html">LCD</a> display. Most likely printed on the <a class="el" href="class_l_c_d.html">LCD</a> circuit board, or look in the supplied <a class="el" href="class_l_c_d.html">LCD</a> documentation. </td></tr>
     <tr><td class="paramname">lcd_cols</td><td>Number of columns your <a class="el" href="class_l_c_d.html">LCD</a> display has. </td></tr>
     <tr><td class="paramname">lcd_rows</td><td>Number of rows your <a class="el" href="class_l_c_d.html">LCD</a> display has. </td></tr>
-    <tr><td class="paramname">charsize</td><td>The size in dots that the display has, use LCD_5x10DOTS or LCD_5x8DOTS. </td></tr>
+    <tr><td class="paramname">charsize</td><td>The size in dots that the display has, use LCD_5x10DOTS or LCD_5x8DOTS.</td></tr>
   </table>
   </dd>
 </dl>
+<p>Modified by Robert Sorić for Soldered for application with PCF8574 IO expander </p>
 
 </div>
 </div>
@@ -315,6 +316,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p >Set the <a class="el" href="class_l_c_d.html">LCD</a> display in the correct begin state, must be called before anything else is done. </p>
+<p >Initialization for display via PCF8574 expander</p>
+<p >Configuration of display See HD44780U datasheet "Initializing by Instruction" Figure 24 (4-Bit Interface)</p>
 
 </div>
 </div>
@@ -1230,7 +1233,7 @@ Private Attributes</h2></td></tr>
     <ul>
         <li class="navelem"><a class="el" href="class_liquid_crystal___i2_c.html">LiquidCrystal_I2C</a></li>
         <li class="footer">
-            Generated on Thu Nov 17 2022 08:44:38 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
+            Generated on Thu Nov 17 2022 10:14:14 for 16x2 easyC LCD Library by <a href="http://www.doxygen.org/index.html">
                 <img class="footer" src="doxygen.png" alt="doxygen"
                     onerror="this.onerror=null;this.src='doxygen.svg';" /></a> 1.9.5.
             Dark theme by <a href="http://majerle.eu" target="_new">Tilen Majerle</a>. All rights reserved.

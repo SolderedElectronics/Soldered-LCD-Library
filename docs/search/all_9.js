@@ -1,20 +1,9 @@
 var searchData=
 [
-  ['lcd_0',['LCD',['../class_l_c_d.html',1,'']]],
-  ['lcd_2dsoldered_2ecpp_1',['LCD-SOLDERED.cpp',['../_l_c_d-_s_o_l_d_e_r_e_d_8cpp.html',1,'']]],
-  ['lcd_2dsoldered_2eh_2',['LCD-SOLDERED.h',['../_l_c_d-_s_o_l_d_e_r_e_d_8h.html',1,'']]],
-  ['lcd_5f16x2_3',['LCD_16x2',['../_l_c_d-_s_o_l_d_e_r_e_d_8h.html#a0889f1737679fbf0d4fbfbd3a98bf52ea71d4964a09056709994258a876394377',1,'LCD-SOLDERED.h']]],
-  ['lcd_5f20x4_4',['LCD_20x4',['../_l_c_d-_s_o_l_d_e_r_e_d_8h.html#a0889f1737679fbf0d4fbfbd3a98bf52eab2bdc88e57dce9f4870fd319929ed247',1,'LCD-SOLDERED.h']]],
-  ['lcd_5fi2c_5',['LCD_I2C',['../class_l_c_d___i2_c.html',1,'LCD_I2C'],['../class_l_c_d___i2_c.html#a2a52fcc7ba3b09b67c74f9209e07d8c3',1,'LCD_I2C::LCD_I2C()']]],
-  ['lcd_5fi2c_2ecpp_6',['LCD_I2C.cpp',['../_l_c_d___i2_c_8cpp.html',1,'']]],
-  ['lcd_5fi2c_2eh_7',['LCD_I2C.h',['../_l_c_d___i2_c_8h.html',1,'']]],
-  ['lcd_5fvariant_5ft_8',['lcd_variant_t',['../_l_c_d-_s_o_l_d_e_r_e_d_8h.html#a0889f1737679fbf0d4fbfbd3a98bf52e',1,'LCD-SOLDERED.h']]],
-  ['lcd_5fwrite_9',['LCD_Write',['../class_l_c_d___i2_c.html#ae98fa69bff62f2a850fb6104da7a6259',1,'LCD_I2C']]],
-  ['lcdtype_10',['lcdtype',['../class_l_c_d.html#a26f4909dcad1b35a0719a51eec75d1de',1,'LCD']]],
-  ['led_11',['Led',['../struct_output_state.html#a1e3cd1ed25dbc08504718e12355946f7',1,'OutputState']]],
-  ['lefttoright_12',['leftToRight',['../class_l_c_d___i2_c.html#a62a262300317053d98481750e588f12e',1,'LCD_I2C::leftToRight()'],['../class_liquid_crystal___i2_c.html#a90a79b37f976778593abb0264f59cda5',1,'LiquidCrystal_I2C::leftToRight()']]],
-  ['liquidcrystal_5fi2c_13',['LiquidCrystal_I2C',['../class_liquid_crystal___i2_c.html#a52ea9b51b4adaddbf05760ff595ffcc2',1,'LiquidCrystal_I2C::LiquidCrystal_I2C()'],['../class_liquid_crystal___i2_c.html',1,'LiquidCrystal_I2C']]],
-  ['liquidcrystal_5fi2c_2ecpp_14',['LiquidCrystal_I2C.cpp',['../_liquid_crystal___i2_c_8cpp.html',1,'']]],
-  ['liquidcrystal_5fi2c_2eh_15',['LiquidCrystal_I2C.h',['../_liquid_crystal___i2_c_8h.html',1,'']]],
-  ['load_5fcustom_5fcharacter_16',['load_custom_character',['../class_liquid_crystal___i2_c.html#a3251c0d8e9a6981d46e25d5452b8323f',1,'LiquidCrystal_I2C']]]
+  ['naziv_20proizvoda_20arduino_20library_0',['NAZIV PROIZVODA Arduino library',['../index.html',1,'']]],
+  ['noautoscroll_1',['noAutoscroll',['../class_liquid_crystal___i2_c.html#a10fd17e8377c240527a7668606c9de72',1,'LiquidCrystal_I2C']]],
+  ['nobacklight_2',['noBacklight',['../class_liquid_crystal___i2_c.html#a576f1f5813f55f34333d6d7e9fe53ad3',1,'LiquidCrystal_I2C']]],
+  ['noblink_3',['noBlink',['../class_liquid_crystal___i2_c.html#a89ba791c60f6100eb565bc6099e56bb1',1,'LiquidCrystal_I2C']]],
+  ['nocursor_4',['noCursor',['../class_liquid_crystal___i2_c.html#a35a18278aa45bd91f2772924a50b7120',1,'LiquidCrystal_I2C']]],
+  ['nodisplay_5',['noDisplay',['../class_liquid_crystal___i2_c.html#af89d6facccc156d7f151da71ecdd3b70',1,'LiquidCrystal_I2C']]]
 ];
