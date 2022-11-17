@@ -18,14 +18,12 @@
 class LCD : public LiquidCrystal_I2C
 {
   public:
-    LCD() : LiquidCrystal_I2C(0x20,16,2)
+    LCD() : LiquidCrystal_I2C(0x20, 16, 2)
     {
-
     }
 
-    LCD(int rows, int cols) : LiquidCrystal_I2C(0x20,rows,cols)
+    LCD(int rows, int cols) : LiquidCrystal_I2C(0x20, rows, cols)
     {
-
     }
 };
 
