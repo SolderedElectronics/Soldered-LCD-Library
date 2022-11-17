@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['naziv_20proizvoda_20arduino_20library_0',['NAZIV PROIZVODA Arduino library',['../index.html',1,'']]]
+  ['lcd_20driver_20board_20arduino_20library_0',['LCD driver board Arduino library',['../index.html',1,'']]]
 ];
