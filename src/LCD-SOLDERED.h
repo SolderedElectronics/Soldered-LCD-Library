@@ -1,7 +1,7 @@
 /**
  **************************************************
  *
- * @file        Generic-easyC-SOLDERED.h
+ * @file        LCD-SOLDERED.h
  * @brief       Header file for sensor specific code.
  *
  *
@@ -9,22 +9,26 @@
  * @authors     @ soldered.com
  ***************************************************/
 
-#ifndef __SENSOR__
-#define __SENSOR__
+#ifndef __LCD__
+#define __LCD__
 
 #include "Arduino.h"
-#include "libs/Generic-easyC/easyC.hpp"
+#include "libs/LiquidCrystal_I2C.h"
+#include "libs/LCD_I2C.h"
 
-class Sensor : public EasyC
+typedef enum
+{
+    LCD_16x2,
+    LCD_20x4
+} lcd_variant_t;
+
+class LCD : public LiquidCrystal_I2C
 {
   public:
-    Sensor(int _pin);
-
-  protected:
-    void initializeNative();
-
+    //LCD() : LiquidCrystal_I2C(16,2);
+    
   private:
-    int pin;
+    lcd_variant_t lcdtype;
 };
 
 #endif
