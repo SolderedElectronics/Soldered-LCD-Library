@@ -54,10 +54,6 @@ LCD display with HD44780 controller enables showing text, symbols, value or anyt
 ### Hardware design
 You can find hardware design for this board in [*I2C LCD driver board*](https://github.com/SolderedElectronics/I2C-LCD-driver-board-hardware-design) hardware repository.
 
-You can find hardware design for this board in [*LCD display 16x2 I2C white characters on blue background*](https://github.com/SolderedElectronics/NAZIVPROIZVODA-hardware-design) hardware repository.
-
-You can find hardware design for this board in [*LCD display 20x4 I2C white characters on blue background*](https://github.com/SolderedElectronics/NAZIVPROIZVODA-hardware-design) hardware repository.
-
 ### Documentation
 
 Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-LCD-library).
