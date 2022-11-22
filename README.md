@@ -1,6 +1,6 @@
 # LCD driver board Arduino library
 
-[![Make docs and publish to GitHub Pages](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/make_docs.yml)
+[![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-LCD-library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-LCD-library/actions/workflows/make_docs.yml)
 
 | ![I2C LCD driver board](https://github.com/SolderedElectronics/I2C-LCD-driver-board-hardware-design/blob/main/OUTPUTS/V1.2.2/333003.jpg) |
 | :---------------------------------------------------------------------------------------------: |
@@ -60,16 +60,16 @@ You can find hardware design for this board in [*LCD display 20x4 I2C white char
 
 ### Documentation
 
-Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-Generic-Arduino-Library/).
+Access Arduino library documentation [here](https://SolderedElectronics.github.io/Soldered-LCD-library).
 
-- Tutorial for using the NAZIV PROIZVODA board
+- Tutorial for using the LCD
 - Installing an Arduino library
 
 ### Board compatibility
 
 The library is compatible with board & microcontroller families shown in green below: 
 
-[![Compile Sketches](http://github-actions.40ants.com/e-radionicacom/Soldered-Generic-Arduino-Library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/e-radionicacom/Soldered-Generic-Arduino-Library/actions/workflows/compile_test.yml)
+[![Compile Sketches](http://github-actions.40ants.com/SolderedElectronics/Soldered-LCD-library/matrix.svg?branch=dev&only=Compile%20Sketches)](https://github.com/SolderedElectronics/Soldered-LCD-library/actions/workflows/compile_test.yml)
 
 
 ### About Soldered
