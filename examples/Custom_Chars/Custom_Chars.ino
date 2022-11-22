@@ -13,7 +13,17 @@
 
 LCD lcd; // create LCD object
 
-
+// Creates a happy face in a 5x8 bitmap
+// The members of this array correspond to rows in the bitmap
+// A '1' in the arrray represents a turned-on pixel
+// For example, this array will produce the following character:
+// _____
+// █___█
+// _____
+// █___█
+// _███_
+// _____
+// _____
 uint8_t happy[8] = {
     // happy face
     0b00000, 0b10001, 0b00000, 0b00000, 0b10001, 0b01110, 0b00000, 0b00000,
@@ -40,8 +50,8 @@ void setup()
 
     lcd.createChar(0, happy);  // create happy face on char 0
     lcd.createChar(1, wow);    // create wow face on char 1
-    lcd.createChar(2, anchor); //  create anchor bit array on char 2
-    lcd.createChar(3, snow);   //  create snow bit array on char 3
+    lcd.createChar(2, anchor); // create anchor bit array on char 2
+    lcd.createChar(3, snow);   // create snow bit array on char 3
 
     
     lcd.setCursor(0,1);         // Go to new line 

@@ -22,22 +22,22 @@ void setup()
 
 void loop()
 {
-    lcd.setCursor(7, 0);         // Move the cursor towards the middle
+    lcd.setCursor(7, 0);         // Move the cursor towards the middle in line 0
     lcd.print("Hello");          // Prints Hello on the LCD
-    lcd.setCursor(7, 1);         // set cursor to 5th character in line 1
+    lcd.setCursor(7, 1);         // Set cursor to 7th character in line 1
     lcd.print("World!");         // Prints World! on the LCD
-    lcd.setCursor(6, 2);         // Move the cursor towards the middle
-    lcd.print("Soldered");       // Prints Hello on the LCD
-    lcd.setCursor(5, 3);         // set cursor to 5th character in line 1
-    lcd.print("Electronics");    // Prints World! on the LCD
-    delay(500);
-
+    lcd.setCursor(6, 2);         // Set cursor to 6th character in line 2
+    lcd.print("Soldered");       // Prints Soldered on the LCD
+    lcd.setCursor(5, 3);         // Set cursor to 5th character in line 3
+    lcd.print("Electronics");    // Prints Electronics on the LCD
+    delay(500);                  // Wait for better visual effect
+ 
     // Flashing the backlight
     for (int i = 0; i < 5; ++i)
     {
-        lcd.backlight();    //Turn on backlight
-        delay(50);
-        lcd.noBacklight();  //Turn off backlight
+        lcd.backlight();    // Turn on backlight
+        delay(50);          // Wait
+        lcd.noBacklight();  // Turn off backlight
         delay(50);
     }
 
