@@ -22,7 +22,15 @@ class LCD : public LiquidCrystal_I2C
     {
     }
 
-    LCD(int rows, int cols) : LiquidCrystal_I2C(0x20, rows, cols)
+    LCD(int _rows, int _cols) : LiquidCrystal_I2C(0x20, _rows, _cols)
+    {
+    }
+
+    LCD(uint8_t _addr, int _rows, int _cols) : LiquidCrystal_I2C(_addr, _rows, _cols)
+    {
+    }
+
+    LCD(uint8_t _addr) : LiquidCrystal_I2C(_addr, 16, 2)
     {
     }
 };
