@@ -10,7 +10,8 @@
  ***************************************************/
 
 #include "LCD-SOLDERED.h"
-#define LCD_ADDRESS 0x20 // Custom LCD address
+
+#define LCD_ADDRESS 0x20 // Set custom LCD address here
 
 LCD lcd(LCD_ADDRESS); // Create LCD with a specific I2C address
 
