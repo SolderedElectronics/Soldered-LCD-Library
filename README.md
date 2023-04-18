@@ -1,6 +1,8 @@
 # LCD driver board Arduino library
 
 [![Make docs and publish to GitHub Pages](https://github.com/SolderedElectronics/Soldered-LCD-library/actions/workflows/make_docs.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-LCD-library/actions/workflows/make_docs.yml)
+[![Arduino Library Manager Compatibility](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/arduino_lint.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/arduino_lint.yml)
+
 
 | ![I2C LCD driver board](https://github.com/SolderedElectronics/I2C-LCD-driver-board-hardware-design/blob/main/OUTPUTS/V1.2.2/333003.jpg) |
 | :---------------------------------------------------------------------------------------------: |
