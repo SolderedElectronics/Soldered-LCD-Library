@@ -6,7 +6,7 @@
 
 | ![I2C LCD driver board](https://github.com/SolderedElectronics/I2C-LCD-driver-board-hardware-design/blob/main/OUTPUTS/V1.2.2/333003.jpg) |
 | :---------------------------------------------------------------------------------------------: |
-| [I2C LCD driver board](https://www.solde.red/333003)       
+| [I2C LCD driver board](https://solde.red/333003)       
                                                    
 
 This adapter makes connection of LCD to Dasduino (or any other Arduino-compatible board) a breeze! It uses I2C communication which needs only two pins. It can be used and work with all of ours LCDs (16x2, 20x4, 16x4). Use our library and get started in few minutes of work!
@@ -16,11 +16,11 @@ It's even easier with easyC - no soldering is needed!
 - I2C address: 0x20 (HEX)
 - Voltage: 3V
 - Potenciometer for contrast at the back of the board
-(https://www.soldered.com/en/easyC)
+(https://www.soldered.com/easyC)
 
 | ![LCD display 16x2 I2C white characters on blue background](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [LCD display 16x2 I2C white characters on blue background](https://www.solde.red/333171)   
+| [LCD display 16x2 I2C white characters on blue background](https://solde.red/333171)   
 
 LCD display with HD44780 controller enables showing text, symbols, value or anything else that comes from Croduino/Arduino. It is capable of showing 16 symbols in two lines and therefore can be used in many projects that need to send clearly visible and legible output information. An I2C LCD adapter is soldered to this LCD screen, which enables characters to be displayed on the LCD screen via the I2C bus. It also has an easyC connector for a really simple connection.
 
@@ -35,7 +35,7 @@ LCD display with HD44780 controller enables showing text, symbols, value or anyt
 
 | ![LCD display 20x4 I2C white characters on blue background](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
 | :---------------------------------------------------------------------------------------------: |
-| [LCD display 20x4 I2C white characters on blue background](https://www.solde.red/333172)     
+| [LCD display 20x4 I2C white characters on blue background](https://solde.red/333172)     
 
 LCD display with HD44780 controller enables showing text, symbols, value or anything else that comes from Croduino/Arduino. It is capable of showing 16 symbols in two lines and therefore can be used in many projects that need to send clearly visible and legible output information. An I2C LCD adapter is soldered to this LCD screen, which enables characters to be displayed on the LCD screen via the I2C bus. It also has an easyC connector for a really simple connection.
 
